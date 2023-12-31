@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+}
+
+.footer-container {
+    margin-top: 75px;
+    height: 300px;
+    background-color: #e99e75;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.left-footer-container {
+    flex: 0.3;
+}
+
+.right-footer-container {
+    flex: 0.3;
+}
+
+.right-footer-title {
+    margin-top: 50px;
+}
+
+.right-footer-desc {
+    margin-top: 30px;
+}
+
+.footer-desc {
+    color: white;
+}
+
+.right-footer-social {
+    margin-top: 30px;
+    color: white;
+}
+
+.insta-icon {
+    background-color: #776483;
+}
+
+.twitter-icon {
+    background-color: #776483;
+    margin-left: 15px;
+}
+
+.linked-icon {
+    background-color: #776483;
+    margin-left: 15px;
+}
+
+.git-icon {
+    background-color: #776483;
+    margin-left: 15px;
+}
+
+.footer-menus {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.location-interior {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.location-icon {
+    background-color: #776483;
+    border-radius: 25px;
+}
+
+h3 {
+    color: white;
+    flex: 0.8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.location {
+    margin-top: 75px;
+    height: 50px;
+
+}
+
+.phone {
+    margin-top: 50px;
+    height: 50px;
+}
+
+.phone-interior {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.phone-icon {
+    background-color: #776483;
+    border-radius: 25px;
+}

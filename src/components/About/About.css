@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+}
+
+.about-title {
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid black;
+    width: 250px;
+    margin-left: 610px;
+}
+
+.about-title:hover {
+    border-radius: 5px;
+    margin-top: 50px;
+    text-align: center;
+    flex: 0.5;
+    border: 2px solid #e99e75;
+    background-color: #e99e75;
+}
+
+.about-title-h {
+    padding: 15px;
+    color: black;
+    font-size: 34px;
+}
+
+.about-title-h:hover {
+    padding: 15px;
+    color: white;
+    font-size: 34px;
+}
+
+.about-cards {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 75px;
+}
+
+.about-card-container:hover {
+    background-color: #e99e75;
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+.emp-name {
+    text-align: center;
+    font-weight: bold;
+}
+
+.emp-department {
+    text-align: center;
+    color: #776483;
+    font-weight: bold;
+    border-bottom: 2px solid #776483;
+    border-right: 2px solid #776483;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
+}
+
+.emp-desc {
+    margin-top: 25px;
+    height: 200px;
+}
+
+.about-button-container {
+    justify-content: center;
+}
+
+.about-button {
+    width: 270px;
+}
+
+.about-button-text {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    color: #776483;
+}
